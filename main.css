@@ -1,0 +1,210 @@
+:root {
+  --orange: #ffa600;
+  --white: #ffffff;
+  --black: #000000;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+body {
+  background-color: var(--white);
+}
+/* >>>>>>>>>> "Header" <<<<<<<<<< */
+
+header .top h1 {
+  color: var(--black);
+  font-size: 6rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+header .navbar img {
+  visibility: hidden;
+}
+header .navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--orange);
+  line-height: 4.5rem;
+}
+header .navbar li a {
+  color: var(--white);
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+header .navbar a:hover {
+  color: var(--black);
+  background-color: var(--white);
+  border: var(--black) solid 0.1rem;
+}
+@media screen and (max-width: 768px) {
+  header .navbar img {
+    visibility: visible;
+  }
+  header .navbar ul {
+    line-height: 6rem;
+  }
+  header .navbar li a {
+    padding: 0.5rem 0;
+    visibility: hidden;
+  }
+}
+
+/* >>>>>>>>>> "Home" <<<<<<<<<< */
+main {
+  width: 100%;
+}
+
+main .home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+main .home h3 {
+  color: var(--black);
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+main .art1 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+main .text p {
+  width: 80%;
+  line-height: 1.8rem;
+  font-size: 1.1rem;
+  color: var(--black);
+}
+main .texto1 img {
+  width: 14rem;
+  margin: 0 2rem;
+}
+/* >>>>>>>>>> "Coment" <<<<<<<<<< */
+main .coment {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+main .coment h3 {
+  color: var(--black);
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+main .art2 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+main .texto2 img {
+  width: 14rem;
+  margin: 0 2rem;
+}
+/* >>>>>>>>>> "Tranças" <<<<<<<<<< */
+main .trancas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+main .trancas h3 {
+  color: var(--black);
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+main .art3 p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: var(--black);
+  margin: 0 2rem;
+}
+/* >>>>>>>>>> "Galeria" <<<<<<<<<< */
+main .galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+main .galeria h3 {
+  color: var(--black);
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+main .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+main .imagem img {
+  width: 10rem;
+  height: 10rem;
+  border: var(--black) solid 0.1rem;
+}
+/* >>>>>>>>>> "Produtos" <<<<<<<<<< */
+
+main h3 {
+  color: var(--black);
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* >>>>>>>>>> "Tipos de Cabelos" <<<<<<<<<< */
+main .tipos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+main .tipos h3 {
+  color: var(--black);
+  font-size: 3rem;
+  text-align: center;
+}
+main .tip img {
+  width: 100%;
+}
+/* >>>>>>>>>> "Logo de Shampoo" <<<<<<<<<< */
+main .shampoo h3 {
+  color: var(--black);
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+main .shampoo img {
+  width: 8rem;
+  height: 8rem;
+  border: none;
+  padding: 2rem 0;
+}
+
+/* >>>>>>>>>> "Roda pé" <<<<<<<<<< */
+footer {
+  background-color: var(--orange);
+}
+footer .final {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+footer .final p {
+  line-height: 2rem;
+  color: var(--black);
+  font-size: 1.5rem;
+}
+/* >>>>>>>>>> "" <<<<<<<<<< */
