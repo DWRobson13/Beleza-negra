@@ -11,8 +11,8 @@
 body {
   background-color: var(--white);
 }
-/* >>>>>>>>>> "Header" <<<<<<<<<< */
 
+/* >>>>>>>>>> "Header" <<<<<<<<<< */
 header .top h1 {
   color: var(--black);
   font-size: 6rem;
@@ -35,7 +35,6 @@ header .navbar li a {
   font-size: 1.5rem;
   padding: 0 1rem;
 }
-
 header .navbar a:hover {
   color: var(--black);
   background-color: var(--white);
@@ -44,6 +43,9 @@ header .navbar a:hover {
 @media screen and (max-width: 768px) {
   header .navbar img {
     visibility: visible;
+  }
+  header .navbar img:hover {
+    cursor: pointer;
   }
   header .navbar ul {
     line-height: 6rem;
@@ -58,7 +60,6 @@ header .navbar a:hover {
 main {
   width: 100%;
 }
-
 main .home {
   display: flex;
   flex-wrap: wrap;
@@ -86,6 +87,7 @@ main .texto1 img {
   width: 14rem;
   margin: 0 2rem;
 }
+
 /* >>>>>>>>>> "Coment" <<<<<<<<<< */
 main .coment {
   display: flex;
@@ -108,6 +110,7 @@ main .texto2 img {
   width: 14rem;
   margin: 0 2rem;
 }
+
 /* >>>>>>>>>> "Tranças" <<<<<<<<<< */
 main .trancas {
   display: flex;
@@ -128,6 +131,7 @@ main .art3 p {
   color: var(--black);
   margin: 0 2rem;
 }
+
 /* >>>>>>>>>> "Galeria" <<<<<<<<<< */
 main .galeria {
   display: flex;
@@ -153,8 +157,8 @@ main .imagem img {
   height: 10rem;
   border: var(--black) solid 0.1rem;
 }
-/* >>>>>>>>>> "Produtos" <<<<<<<<<< */
 
+/* >>>>>>>>>> "Produtos" <<<<<<<<<< */
 main h3 {
   color: var(--black);
   font-size: 3rem;
@@ -170,7 +174,6 @@ main .tipos {
   align-items: center;
   padding: 2rem 0;
 }
-
 main .tipos h3 {
   color: var(--black);
   font-size: 3rem;
@@ -179,6 +182,7 @@ main .tipos h3 {
 main .tip img {
   width: 100%;
 }
+
 /* >>>>>>>>>> "Logo de Shampoo" <<<<<<<<<< */
 main .shampoo h3 {
   color: var(--black);

@@ -1,0 +1,105 @@
+:root {
+  --orange: #ffa600;
+  --white: #ffffff;
+  --black: #000000;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+body {
+  background-color: var(--white);
+}
+/* >>>>>>>>>> "Header" <<<<<<<<<< */
+
+header .top h1 {
+  color: var(--black);
+  font-size: 6rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+header .navbar img {
+  visibility: hidden;
+}
+header .navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--orange);
+  line-height: 4.5rem;
+}
+header .navbar li a {
+  color: var(--white);
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+header .navbar a:hover {
+  color: var(--black);
+  background-color: var(--white);
+  border: var(--black) solid 0.1rem;
+}
+@media screen and (max-width: 768px) {
+  header .navbar img {
+    visibility: visible;
+  }
+  header .navbar ul {
+    line-height: 6rem;
+  }
+  header .navbar li a {
+    padding: 0.5rem 0;
+    visibility: hidden;
+  }
+}
+/* >>>>>>>>>> "Home" <<<<<<<<<< */
+main .home {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .box h3 {
+  color: var(--black);
+  font-size: 2rem;
+  text-align: center;
+}
+main .box {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  border: var(--black) solid 0.1rem;
+}
+main .imagem img {
+  width: 18rem;
+  height: 18rem;
+}
+main .text h4 {
+  color: var(--black);
+  font-size: 1.1rem;
+  text-align: center;
+}
+main .text p {
+  color: var(--black);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* >>>>>>>>>> "Cabeleleira Martina" <<<<<<<<<< */
+
+/* >>>>>>>>>> "" <<<<<<<<<< */
+/* >>>>>>>>>> "" <<<<<<<<<< */
+/* >>>>>>>>>> "" <<<<<<<<<< */
+/* >>>>>>>>>> "" <<<<<<<<<< */
+/* >>>>>>>>>> "" <<<<<<<<<< */
+/* >>>>>>>>>> "" <<<<<<<<<< */
+/* >>>>>>>>>> "" <<<<<<<<<< */
+/* >>>>>>>>>> "" <<<<<<<<<< */
+/* >>>>>>>>>> "" <<<<<<<<<< */
+/* >>>>>>>>>> "" <<<<<<<<<< */
+/* >>>>>>>>>> "" <<<<<<<<<< */
+/* >>>>>>>>>> "" <<<<<<<<<< */
+/* >>>>>>>>>> "" <<<<<<<<<< */
+/* >>>>>>>>>> "" <<<<<<<<<< */
