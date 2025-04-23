@@ -57,10 +57,13 @@ header .navbar a:hover {
 }
 
 /* >>>>>>>>>> "Home" <<<<<<<<<< */
-main {
-  width: 100%;
+main aside {
+  display: flex;
+  flex-wrap: wrap;
 }
+
 main .home {
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -78,7 +81,7 @@ main .art1 {
   flex-wrap: nowrap;
 }
 main .text p {
-  width: 80%;
+  width: 100%;
   line-height: 1.8rem;
   font-size: 1.1rem;
   color: var(--black);
@@ -90,6 +93,7 @@ main .texto1 img {
 
 /* >>>>>>>>>> "Coment" <<<<<<<<<< */
 main .coment {
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -196,6 +200,8 @@ main .shampoo img {
   border: none;
   padding: 2rem 0;
 }
+
+/* >>>>>>>>>> "Sobre" <<<<<<<<<< */
 
 /* >>>>>>>>>> "Roda pé" <<<<<<<<<< */
 footer {

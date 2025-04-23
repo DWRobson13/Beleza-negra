@@ -58,6 +58,7 @@ main .home {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 main .box h3 {
   color: var(--black);
@@ -65,10 +66,9 @@ main .box h3 {
   text-align: center;
 }
 main .box {
-  width: 18rem;
+  width: 19rem;
   display: flex;
   flex-direction: column;
-
   align-items: center;
   border: var(--black) solid 0.1rem;
 }
@@ -82,7 +82,7 @@ main .text h4 {
   text-align: center;
 }
 main .text p {
-  color: var(--black);
+  color: var(--orange);
   font-size: 1.2rem;
   text-align: center;
 }
