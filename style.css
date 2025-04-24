@@ -41,18 +41,7 @@ header .navbar a:hover {
   background-color: var(--white);
   border: var(--black) solid 0.1rem;
 }
-@media screen and (max-width: 768px) {
-  header .navbar img {
-    visibility: visible;
-  }
-  header .navbar ul {
-    line-height: 6rem;
-  }
-  header .navbar li a {
-    padding: 0.5rem 0;
-    visibility: hidden;
-  }
-}
+
 /* >>>>>>>>>> "Home" <<<<<<<<<< */
 main .home {
   width: 100%;
@@ -66,15 +55,16 @@ main .box h3 {
   text-align: center;
 }
 main .box {
-  width: 19rem;
+  width: 14rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   border: var(--black) solid 0.1rem;
+  cursor: pointer;
 }
 main .imagem img {
-  width: 18rem;
-  height: 18rem;
+  width: 13rem;
+  height: 13rem;
 }
 main .text h4 {
   color: var(--black);

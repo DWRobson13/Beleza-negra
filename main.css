@@ -40,21 +40,6 @@ header .navbar a:hover {
   background-color: var(--white);
   border: var(--black) solid 0.1rem;
 }
-@media screen and (max-width: 768px) {
-  header .navbar img {
-    visibility: visible;
-  }
-  header .navbar img:hover {
-    cursor: pointer;
-  }
-  header .navbar ul {
-    line-height: 6rem;
-  }
-  header .navbar li a {
-    padding: 0.5rem 0;
-    visibility: hidden;
-  }
-}
 
 /* >>>>>>>>>> "Home" <<<<<<<<<< */
 main aside {
@@ -83,7 +68,7 @@ main .art1 {
 main .text p {
   width: 100%;
   line-height: 1.8rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: var(--black);
 }
 main .texto1 img {
